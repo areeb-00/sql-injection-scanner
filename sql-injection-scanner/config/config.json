@@ -1,0 +1,13 @@
+{
+    "scanner": {
+        "timeout": 10,
+        "max_redirects": 5,
+        "verify_ssl": true,
+        "user_agent": "SQLi-Scanner/1.0",
+        "timing_threshold": 2.0
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/scanner.log"
+    }
+}

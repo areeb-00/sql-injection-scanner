@@ -1,0 +1,104 @@
+2026-08-10 10:52:55,283 | INFO | Scanner started.
+2026-08-10 10:52:55,283 | INFO | Target received: http://example.com
+2026-08-10 10:52:55,283 | INFO | Target URL validated successfully.
+2026-08-10 10:52:55,651 | INFO | Baseline request successful: HTTP 200
+2026-08-10 10:52:55,651 | INFO | Scanner finished Part 1 execution.
+2026-08-10 10:58:11,010 | INFO | Scanner started.
+2026-08-10 10:58:11,010 | INFO | Target received: http://example.com
+2026-08-10 10:58:11,011 | INFO | Target URL validated successfully.
+2026-08-10 10:58:11,011 | INFO | No query parameters found.
+2026-08-10 10:58:11,216 | INFO | Baseline request successful: HTTP 200
+2026-08-10 10:58:11,216 | INFO | Baseline response fingerprint created.
+2026-08-10 10:58:11,216 | INFO | Part 2 execution completed.
+2026-08-10 10:58:19,408 | INFO | Scanner started.
+2026-08-10 10:58:19,408 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-10 10:58:19,408 | INFO | Target URL validated successfully.
+2026-08-10 10:58:19,408 | INFO | Discovered 2 query parameter(s).
+2026-08-10 10:58:19,981 | INFO | Baseline request successful: HTTP 200
+2026-08-10 10:58:19,981 | INFO | Baseline response fingerprint created.
+2026-08-10 10:58:19,981 | INFO | Part 2 execution completed.
+2026-08-10 11:05:46,736 | INFO | Scanner started.
+2026-08-10 11:05:46,736 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-10 11:05:46,737 | INFO | Target URL validated successfully.
+2026-08-10 11:05:46,737 | INFO | Discovered 2 query parameter(s).
+2026-08-10 11:05:47,203 | INFO | Baseline request successful: HTTP 200
+2026-08-10 11:05:47,203 | INFO | Baseline response fingerprint created.
+2026-08-10 11:05:47,203 | INFO | SQL injection detection started.
+2026-08-10 11:05:47,203 | INFO | Testing parameter: id
+2026-08-10 11:05:51,413 | INFO | Testing parameter: category
+2026-08-10 11:05:56,055 | INFO | Part 3 completed. Tests: 16, Findings: 0
+2026-08-10 11:53:06,377 | INFO | Scanner started.
+2026-08-10 11:53:06,377 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-10 11:53:06,377 | INFO | Target URL validated successfully.
+2026-08-10 11:53:06,377 | INFO | Discovered 2 query parameter(s).
+2026-08-10 11:53:06,452 | INFO | Baseline request successful: HTTP 200
+2026-08-10 11:53:06,453 | INFO | Baseline response fingerprint created.
+2026-08-10 11:53:06,453 | INFO | SQL injection detection started.
+2026-08-10 11:53:06,453 | INFO | Testing parameter: id
+2026-08-10 11:53:11,166 | INFO | Testing parameter: category
+2026-08-10 11:53:15,135 | INFO | Part 3 completed. Tests: 16, Findings: 0
+2026-08-10 11:53:42,448 | INFO | Scanner started.
+2026-08-10 11:53:42,449 | INFO | Target received: http://nmap.org
+2026-08-10 11:53:42,449 | INFO | Target URL validated successfully.
+2026-08-10 11:53:42,449 | INFO | No query parameters found.
+2026-08-10 11:53:50,483 | INFO | Baseline request successful: HTTP 200
+2026-08-10 11:53:50,483 | INFO | Baseline response fingerprint created.
+2026-08-10 11:53:50,484 | INFO | Detection skipped because no parameters were discovered.
+2026-08-10 11:57:58,832 | INFO | Scanner started.
+2026-08-10 11:57:58,833 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-10 11:57:58,833 | INFO | Target URL validated successfully.
+2026-08-10 11:57:58,833 | INFO | Discovered 2 query parameter(s).
+2026-08-10 11:57:59,280 | INFO | Baseline request successful: HTTP 200
+2026-08-10 11:57:59,280 | INFO | Baseline response fingerprint created.
+2026-08-10 11:57:59,280 | INFO | SQL injection detection started.
+2026-08-10 11:57:59,280 | INFO | Testing parameter: id
+2026-08-10 11:58:02,831 | INFO | Testing parameter: category
+2026-08-10 11:58:06,723 | INFO | Part 4 completed. Tests: 16, Findings: 0
+2026-08-10 12:04:27,545 | INFO | Scanner started.
+2026-08-10 12:04:27,545 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-10 12:04:27,545 | INFO | Target URL validated successfully.
+2026-08-10 12:04:27,545 | INFO | Discovered 2 query parameter(s).
+2026-08-10 12:04:28,984 | INFO | Baseline request successful: HTTP 200
+2026-08-10 12:04:28,985 | INFO | Baseline response fingerprint created.
+2026-08-10 12:04:39,231 | INFO | Part 5 completed. Tests: 16, Findings: 0
+2026-08-10 22:21:03,333 | INFO | Scanner started.
+2026-08-10 22:21:03,334 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-10 22:21:03,334 | INFO | Target URL validated successfully.
+2026-08-10 22:21:03,334 | INFO | Discovered 2 query parameter(s).
+2026-08-10 22:21:03,809 | INFO | Baseline request successful: HTTP 200
+2026-08-10 22:21:03,809 | INFO | Baseline response fingerprint created.
+2026-08-10 22:21:15,846 | INFO | Scan report saved: reports/scan_20260810_222115.json
+2026-08-10 22:21:15,846 | INFO | Part 7 completed. Tests: 20, Findings: 0
+2026-08-10 23:26:07,286 | INFO | Scanner started.
+2026-08-10 23:26:07,286 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-10 23:26:07,287 | INFO | Target URL validated successfully.
+2026-08-10 23:26:07,287 | INFO | Discovered 2 query parameter(s).
+2026-08-10 23:26:07,929 | INFO | Baseline request successful: HTTP 200
+2026-08-10 23:26:07,929 | INFO | Baseline response fingerprint created.
+2026-08-10 23:26:16,468 | INFO | Scan report saved: reports/scan_20260810_232616.json
+2026-08-10 23:26:16,468 | INFO | Part 7 completed. Tests: 20, Findings: 0
+2026-08-10 23:26:28,548 | INFO | Scanner started.
+2026-08-10 23:26:28,548 | INFO | Target received: [http://example.com](http://example.com)
+2026-08-10 23:26:28,548 | ERROR | Invalid target URL: URL appears to contain Markdown formatting.
+2026-08-10 23:26:38,682 | INFO | Scanner started.
+2026-08-10 23:26:38,683 | INFO | Target received: ftp://example.com
+2026-08-10 23:26:38,683 | ERROR | Invalid target URL: URL must use HTTP or HTTPS.
+2026-08-10 23:26:44,429 | INFO | Scanner started.
+2026-08-10 23:26:44,430 | INFO | Target received: 
+2026-08-10 23:26:44,430 | ERROR | Invalid target URL: URL cannot be empty.
+2026-08-10 23:26:51,291 | INFO | Scanner started.
+2026-08-10 23:26:51,291 | INFO | Target received: http://example.com
+2026-08-10 23:26:51,292 | INFO | Target URL validated successfully.
+2026-08-10 23:26:51,292 | INFO | No query parameters found.
+2026-08-10 23:26:51,368 | INFO | Baseline request successful: HTTP 200
+2026-08-10 23:26:51,368 | INFO | Baseline response fingerprint created.
+2026-08-10 23:26:51,368 | INFO | Detection skipped because no parameters were discovered.
+2026-08-11 09:00:54,513 | INFO | Scanner started.
+2026-08-11 09:00:54,514 | INFO | Target received: http://example.com/?id=10&category=books
+2026-08-11 09:00:54,514 | INFO | Target URL validated successfully.
+2026-08-11 09:00:54,514 | INFO | Discovered 2 query parameter(s).
+2026-08-11 09:00:55,076 | INFO | Baseline request successful: HTTP 200
+2026-08-11 09:00:55,076 | INFO | Baseline response time: 0.5608 seconds
+2026-08-11 09:00:55,076 | INFO | Baseline response fingerprint created.
+2026-08-11 09:01:08,310 | INFO | Scan report saved: reports/scan_20260811_090108.json
+2026-08-11 09:01:08,310 | INFO | Scan completed. Tests: 20, Findings: 0
